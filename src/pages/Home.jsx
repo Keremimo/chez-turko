@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom"
+
 const Home = () => {
   return (
     <div
@@ -12,7 +14,7 @@ const Home = () => {
           <p className="mb-5 text-white">
             Welcome to Chez Turko, the French Turkish fusion kitchen. Here you will find gourmet selections that are made by our three star chef, <span className="font-bold">Ahmet LeBoyard</span>! Delivery only! Order now!
           </p>
-          <button className="btn btn-primary">Check Menu</button>
+          <Link to={"/menu"} className="btn btn-primary">Check Menu</Link>
         </div>
       </div>
     </div>
