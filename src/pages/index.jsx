@@ -1,5 +1,5 @@
 import Home from "./Home";
-import Test from "./Test";
+import Menu from "./Menu";
 
-export { Home, Test }
+export { Home, Menu }
 
