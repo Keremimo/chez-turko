@@ -1,6 +1,11 @@
+import jsonData from '../assets/menu.json'
+import { Cart } from '../components'
+
 const Menu = () => {
   return (
-    <h1>This is the menu</h1>
+    <>
+      <Cart />
+    </>
   )
 }
 
