@@ -12,9 +12,9 @@ const FoodItem = ({ details }) => {
         <h2 className="card-title text-center mx-auto pt-0 mt-0">{details.name}</h2>
         <p className="text-center">{details.description}</p>
 
-        <div className="card-actions justify-end flex flex-row">
-          <p className="font-bold justify-end text-right mt-auto">{details.price}€</p>
-          <button className="btn btn-primary sm:mx-auto lg:mx-0 lg: mt-3">Add</button>
+        <div className="card-actions flex flex-row items-center justify-center mt-2">
+          <p className="font-bold justify-end text-right">{details.price}€</p>
+          <button className="btn btn-primary sm:mx-auto lg:mx-0 ">Add</button>
         </div>
       </div>
     </div>
