@@ -1,11 +1,12 @@
 import jsonData from '../assets/menu.json'
-import { Cart } from '../components'
+import { MenuList, Cart } from '../components'
 
 const Menu = () => {
   return (
-    <>
+    <div className='join flex'>
       <Cart />
-    </>
+      <MenuList list={jsonData} />
+    </div>
   )
 }
 
