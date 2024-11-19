@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom"
 const Nav = () => {
   return (
-    <nav className="navbar bg-base-100">
+    <nav className="navbar bg-base-100 z-10 relative">
       <div className="navbar-start">
         <div className="dropdown">
           <div tabIndex={0} role="button" className="btn btn-ghost btn-circle">
