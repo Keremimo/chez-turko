@@ -1,8 +1,8 @@
 const Cart = () => {
   return (
-    <div className="drawer drawer-end fixed z-20">
+    <div className="drawer drawer-end ml-auto fixed z-30">
       <input id="shopCart" type="checkbox" className="drawer-toggle ml-auto" />
-      <div className="drawer-content flex flex-col items-center justify-center ml-auto">
+      <div className="drawer-content flex flex-col items-center justify-center ml-auto mt-auto w-12">
         {/* Page content here */}
         <label htmlFor="shopCart" className="btn btn-primary drawer-button">
           <svg className="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
