@@ -1,7 +1,7 @@
 const Cart = ({ cart }) => {
   console.log(cart)
   return (
-    <div className="drawer drawer-end fixed z-30 w-16 right-0 top-2">
+    <div className="drawer drawer-end fixed z-30 w-16 right-2 top-2">
       <input id="shopCart" type="checkbox" className="drawer-toggle" />
       <div className="drawer-content mt-auto ml-auto">
         {/* Page content here */}
