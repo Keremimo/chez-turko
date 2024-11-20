@@ -1,8 +1,9 @@
-const Cart = () => {
+const Cart = ({ cart }) => {
+  console.log(cart)
   return (
-    <div className="drawer drawer-end ml-auto fixed z-30">
-      <input id="shopCart" type="checkbox" className="drawer-toggle ml-auto" />
-      <div className="drawer-content flex flex-col items-center justify-center ml-auto mt-auto w-12">
+    <div className="drawer drawer-end fixed z-30 w-16 right-0">
+      <input id="shopCart" type="checkbox" className="drawer-toggle" />
+      <div className="drawer-content mt-auto ml-auto">
         {/* Page content here */}
         <label htmlFor="shopCart" className="btn btn-primary drawer-button">
           <svg className="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
@@ -11,7 +12,7 @@ const Cart = () => {
 
         </label>
       </div>
-      <div className="drawer-side ml-auto">
+      <div className="drawer-side">
         <label htmlFor="shopCart" aria-label="close sidebar" className="drawer-overlay"></label>
         <ul className="menu bg-base-200 text-base-content min-h-full w-80 p-4">
           {/* Sidebar content here */}
