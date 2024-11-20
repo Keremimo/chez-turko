@@ -1,5 +1,8 @@
-const FoodItem = ({ details }) => {
+const FoodItem = ({ details, cartModify }) => {
   const cardImage = details.image || 'https://img.daisyui.com/images/stock/photo-1494232410401-ad00d5433cfa.webp'
+  const addToCart = () => {
+    cartModify(details)
+  }
 
   return (
     <div className="card lg:card-side bg-base-100 shadow-xl m-3">
@@ -14,7 +17,7 @@ const FoodItem = ({ details }) => {
 
         <div className="card-actions flex flex-row items-center justify-center mt-2">
           <p className="font-bold justify-end text-right">{details.price}€</p>
-          <button className="btn btn-primary sm:mx-auto lg:mx-0 ">Add</button>
+          <button onClick={addToCart} className="btn btn-primary sm:mx-auto lg:mx-0 ">Add</button>
         </div>
       </div>
     </div>
