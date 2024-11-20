@@ -24,8 +24,12 @@ const Cart = ({ cart }) => {
         <label htmlFor="shopCart" aria-label="close sidebar" className="drawer-overlay"></label>
         <ul className="menu bg-base-200 text-base-content min-h-full w-80 p-4">
           {/* Sidebar content here */}
-          <li><p className="text-2xl font-bold">Your Cart</p></li>
-          {renderedCart}
+          <li>
+            <p className="text-2xl font-bold">Your Cart</p>
+            <ul>{renderedCart}</ul>
+            <h2 className="btn btn-primary">Checkout</h2>
+
+          </li>
         </ul>
       </div>
     </div>
