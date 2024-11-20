@@ -1,5 +1,9 @@
 const Cart = ({ cart }) => {
-  console.log(cart)
+  const renderedCart = cart.map((item, index) => (
+    <li key={index}>
+      <h2>{item.name}</h2>
+    </li>
+  ))
   return (
     <div className="drawer drawer-end fixed z-30 w-16 right-2 top-2">
       <input id="shopCart" type="checkbox" className="drawer-toggle" />
@@ -17,7 +21,7 @@ const Cart = ({ cart }) => {
         <ul className="menu bg-base-200 text-base-content min-h-full w-80 p-4">
           {/* Sidebar content here */}
           <li><p className="text-2xl font-bold">Your Cart</p></li>
-          <li><a>Sidebar Item 2</a></li>
+          {renderedCart}
         </ul>
       </div>
     </div>
