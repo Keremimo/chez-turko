@@ -1,6 +1,5 @@
 import FoodItem from "./FoodItem"
 const MenuList = ({ list, cartModify }) => {
-  console.log(list)
   const foodItemList = list.menu.map((item, index) => (
     <FoodItem key={index} details={item} cartModify={cartModify} />
   ))

@@ -2,6 +2,7 @@ const Cart = ({ cart }) => {
   const renderedCart = cart.map((item, index) => (
     <li key={index}>
       <h2>{item.name}</h2>
+      <span>{item.quantity}</span>
     </li>
   ))
   return (
