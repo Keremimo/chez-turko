@@ -1,7 +1,9 @@
-import { Link } from "react-router-dom"
+import { Link, useLocation } from "react-router-dom"
 const Nav = () => {
+  const location = useLocation()
+  const listClasses = location.pathname == '/' ? "navbar bg-base-100 z-10 fixed bg-transparent" : "navbar bg-base-100 z-10 relative bg-transparent"
   return (
-    <nav className="navbar bg-base-100 z-10 relative">
+    <nav className={listClasses}>
       <div className="navbar-start">
         <div className="dropdown">
           <div tabIndex={0} role="button" className="btn btn-ghost btn-circle">
