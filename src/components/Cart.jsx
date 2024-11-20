@@ -1,8 +1,11 @@
 const Cart = ({ cart }) => {
   const renderedCart = cart.map((item, index) => (
     <li key={index}>
-      <h2>{item.name}</h2>
-      <span>{item.quantity}</span>
+      <div>
+        <h2>{item.name}</h2>
+        <span className="font-bold">X{item.quantity}</span>
+        <span>{(item.quantity * (item.price * 100) / 100)}</span>
+      </div>
     </li>
   ))
   return (
