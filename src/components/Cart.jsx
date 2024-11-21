@@ -35,12 +35,12 @@ const Cart = ({ cart, setShoppingCart, drawer }) => {
         </div>
         <h2>{item.name}</h2>
         <span className="font-bold">X{item.quantity}</span>
-        <span>{(item.quantity * (item.price * 100) / 100)} €</span>
+        <span>{(item.quantity * (item.price)) / 100} €</span>
       </div>
     </li>
   ))
   const initialPrice = 0
-  const totalPrice = (cart.reduce((accumulator, obj) => accumulator + ((obj.price * obj.quantity) * 100), initialPrice) / 100)
+  const totalPrice = (cart.reduce((accumulator, obj) => accumulator + (obj.price * obj.quantity), initialPrice)) / 100
   return (
     <div className="drawer drawer-end fixed z-30 w-16 right-2 top-2">
       <DrawerToggle />

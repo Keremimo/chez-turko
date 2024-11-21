@@ -17,7 +17,7 @@ const FoodItem = ({ details, cartModify, handleDrawerToggle }) => {
         <p className="text-center">{details.description}</p>
 
         <div className="card-actions flex flex-row items-center justify-center mt-2">
-          <p className="font-bold justify-end text-right">{details.price}€</p>
+          <p className="font-bold justify-end text-right">{details.price / 100}€</p>
           <button onClick={addToCart} className="btn btn-primary sm:mx-auto lg:mx-0 ">Add</button>
         </div>
       </div>

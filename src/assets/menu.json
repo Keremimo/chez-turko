@@ -10,8 +10,8 @@
         "Butter",
         "Honey glaze"
       ],
-      "picture_url": "https://images.pexels.com/photos/302680/pexels-photo-302680.jpeg",
-      "price": 4.99
+      "picture_url": "https://images.unsplash.com/photo-1606291621386-85f60f08c28e",
+      "price": 499
     },
     {
       "name": "Manti Ratatouille",
@@ -25,7 +25,7 @@
         "Herbs de Provence"
       ],
       "picture_url": "https://images.unsplash.com/photo-1600891964599-f61ba0e24092",
-      "price": 12.99
+      "price": 1299
     },
     {
       "name": "Lamb Cassoulet Kebab",
@@ -38,8 +38,8 @@
         "Paprika",
         "Charcoal-grilled spices"
       ],
-      "picture_url": "https://images.pexels.com/photos/461198/pexels-photo-461198.jpeg",
-      "price": 18.99
+      "picture_url": "https://images.unsplash.com/photo-1529290130-b1b0c0aa4516",
+      "price": 1899
     },
     {
       "name": "Baklava Mille-Feuille",
@@ -52,8 +52,8 @@
         "Butter",
         "Cream"
       ],
-      "picture_url": "https://images.pexels.com/photos/461198/pexels-photo-461198.jpeg",
-      "price": 7.49
+      "picture_url": "https://images.unsplash.com/photo-1612178992340-d69dc0f07dce",
+      "price": 749
     },
     {
       "name": "Eiffel Ayran",
@@ -64,8 +64,8 @@
         "Salt",
         "Lavender essence"
       ],
-      "picture_url": "https://images.pexels.com/photos/459225/pexels-photo-459225.jpeg",
-      "price": 2.99
+      "picture_url": "https://images.unsplash.com/photo-1551892589-865f698694b4",
+      "price": 299
     },
     {
       "name": "Beyoglu Crème Brûlée",
@@ -76,8 +76,8 @@
         "Sugar",
         "Turkish coffee"
       ],
-      "picture_url": "https://images.pexels.com/photos/302680/pexels-photo-302680.jpeg",
-      "price": 6.99
+      "picture_url": "https://images.unsplash.com/photo-1589571894960-20bbe2828d9f",
+      "price": 699
     },
     {
       "name": "Istanbul Quiche",
@@ -89,8 +89,8 @@
         "Feta cheese",
         "Pastry crust"
       ],
-      "picture_url": "https://images.pexels.com/photos/2232/vegetables-italian-pizza-restaurant.jpg",
-      "price": 9.99
+      "picture_url": "https://images.unsplash.com/photo-1592211541925-455af324e8e7",
+      "price": 999
     },
     {
       "name": "Toulouse Dolma",
@@ -102,8 +102,8 @@
         "Confit duck",
         "Olive oil"
       ],
-      "picture_url": "https://images.unsplash.com/photo-1600891964599-f61ba0e24092",
-      "price": 14.99
+      "picture_url": "https://images.unsplash.com/photo-1529290130-55f6696a99f7",
+      "price": 1499
     },
     {
       "name": "Bouillabaisse Tarhana",
@@ -116,12 +116,12 @@
         "Garlic",
         "Olive oil"
       ],
-      "picture_url": "https://images.pexels.com/photos/461198/pexels-photo-461198.jpeg",
-      "price": 16.99
+      "picture_url": "https://images.unsplash.com/photo-1604537529428-e221c133c5b6",
+      "price": 1699
     },
     {
       "name": "Meze Éclair",
-      "description": "Savoury éclairs filled with roasted eggplant and creamy labneh, topped with za'atar.",
+      "description": "Savory éclairs filled with roasted eggplant and creamy labneh, topped with za'atar.",
       "ingredients": [
         "Éclair dough",
         "Eggplant",
@@ -130,140 +130,8 @@
         "Olive oil"
       ],
       "picture_url": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c",
-      "price": 6.99
+      "price": 699
     },
-    {
-      "name": "Galata Escargot",
-      "description": "Traditional French escargots served with a Turkish garlic-yogurt dipping sauce.",
-      "ingredients": [
-        "Escargot",
-        "Butter",
-        "Garlic",
-        "Parsley",
-        "Yogurt"
-      ],
-      "picture_url": "https://images.pexels.com/photos/461198/pexels-photo-461198.jpeg",
-      "price": 11.99
-    },
-    {
-      "name": "Pide Provençale",
-      "description": "A Turkish flatbread topped with olives, goat cheese, and sun-dried tomatoes.",
-      "ingredients": [
-        "Pide dough",
-        "Goat cheese",
-        "Sun-dried tomatoes",
-        "Olives",
-        "Basil"
-      ],
-      "picture_url": "https://images.pexels.com/photos/302680/pexels-photo-302680.jpeg",
-      "price": 10.99
-    },
-    {
-      "name": "Adana Crêpe",
-      "description": "Savory crêpes filled with spiced lamb from the Adana region, served with mint yogurt.",
-      "ingredients": [
-        "Crêpe batter",
-        "Ground lamb",
-        "Chili peppers",
-        "Mint",
-        "Yogurt"
-      ],
-      "picture_url": "https://images.pexels.com/photos/461198/pexels-photo-461198.jpeg",
-      "price": 13.49
-    },
-    {
-      "name": "Aegean Tart",
-      "description": "A flaky tart filled with Turkish olives, French Gruyère, and fresh rosemary.",
-      "ingredients": [
-        "Tart crust",
-        "Olives",
-        "Gruyère cheese",
-        "Rosemary",
-        "Olive oil"
-      ],
-      "picture_url": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c",
-      "price": 9.49
-    },
-    {
-      "name": "Ottoman Soufflé",
-      "description": "Rich chocolate soufflé spiced with a hint of cinnamon and Turkish chili flakes.",
-      "ingredients": [
-        "Chocolate",
-        "Eggs",
-        "Sugar",
-        "Cinnamon",
-        "Chili flakes"
-      ],
-      "picture_url": "https://images.pexels.com/photos/302680/pexels-photo-302680.jpeg",
-      "price": 8.99
-    },
-    {
-      "name": "Brioche Köfte",
-      "description": "Juicy Turkish köfte served on a soft French brioche bun with sumac onions.",
-      "ingredients": [
-        "Ground beef",
-        "Spices",
-        "Brioche bun",
-        "Sumac",
-        "Onions"
-      ],
-      "picture_url": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c",
-      "price": 10.99
-    },
-    {
-      "name": "Antakya Ratatouille",
-      "description": "Ratatouille with a Turkish twist, featuring Antakya’s signature pomegranate molasses.",
-      "ingredients": [
-        "Eggplant",
-        "Zucchini",
-        "Tomatoes",
-        "Pomegranate molasses",
-        "Olive oil"
-      ],
-      "picture_url": "https://images.pexels.com/photos/461198/pexels-photo-461198.jpeg",
-      "price": 12.99
-    },
-    {
-      "name": "Côte d'Azur Baklava",
-      "description": "Baklava layered with figs and a touch of French lavender honey.",
-      "ingredients": [
-        "Phyllo dough",
-        "Figs",
-        "Pistachios",
-        "Butter",
-        "Lavender honey"
-      ],
-      "picture_url": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c",
-      "price": 8.49
-    },
-    {
-      "name": "Foie Gras Börek",
-      "description": "Crispy Turkish börek filled with rich foie gras and caramelized onions.",
-      "ingredients": [
-        "Phyllo dough",
-        "Foie gras",
-        "Onions",
-        "Butter",
-        "Spices"
-      ],
-      "picture_url": "https://images.pexels.com/photos/302680/pexels-photo-302680.jpeg",
-      "price": 19.99
-    },
-    {
-      "name": "Simit Tartine",
-      "description": "Traditional Turkish sesame bagel topped with creamy French brie and fig jam.",
-      "ingredients": [
-        "Simit",
-        "Brie cheese",
-        "Fig jam",
-        "Walnuts",
-        "Honey"
-      ],
-      "picture_url": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c",
-      "price": 6.99
-    }
-  ],
-  "drinks": [
     {
       "name": "Lavender Lemonade",
       "description": "A refreshing blend of lemonade with a hint of lavender, perfect for any meal.",
@@ -273,8 +141,8 @@
         "Sugar",
         "Lavender essence"
       ],
-      "picture_url": "https://images.pexels.com/photos/459225/pexels-photo-459225.jpeg",
-      "price": 3.99
+      "picture_url": "https://images.unsplash.com/photo-1599058917212-e24718d0a17a",
+      "price": 399
     },
     {
       "name": "Turkish Coffee Martini",
@@ -285,8 +153,8 @@
         "Coffee liqueur",
         "Sugar"
       ],
-      "picture_url": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c",
-      "price": 9.99
+      "picture_url": "https://images.unsplash.com/photo-1624730312686-bb0516f9eebd",
+      "price": 999
     },
     {
       "name": "Pomegranate Kir Royale",
@@ -295,8 +163,8 @@
         "Champagne",
         "Pomegranate juice"
       ],
-      "picture_url": "https://images.pexels.com/photos/461198/pexels-photo-461198.jpeg",
-      "price": 8.99
+      "picture_url": "https://images.unsplash.com/photo-1587131660666-845d934085aa",
+      "price": 899
     },
     {
       "name": "Minty Ayran Cooler",
@@ -308,8 +176,8 @@
         "Salt",
         "Lime juice"
       ],
-      "picture_url": "https://images.pexels.com/photos/302680/pexels-photo-302680.jpeg",
-      "price": 2.99
+      "picture_url": "https://images.unsplash.com/photo-1543362906-acfc16c67564",
+      "price": 299
     },
     {
       "name": "Rosewater Fizz",
@@ -320,8 +188,8 @@
         "Lemon juice",
         "Sugar"
       ],
-      "picture_url": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c",
-      "price": 3.49
+      "picture_url": "https://images.unsplash.com/photo-1553440562-e7d6fe3978fc",
+      "price": 349
     },
     {
       "name": "Chai Latte Française",
@@ -333,8 +201,8 @@
         "Vanilla",
         "Sugar"
       ],
-      "picture_url": "https://images.pexels.com/photos/461198/pexels-photo-461198.jpeg",
-      "price": 4.49
+      "picture_url": "https://images.unsplash.com/photo-1562526395-fff70f8d743f",
+      "price": 449
     },
     {
       "name": "Rakı Sour",
@@ -345,8 +213,8 @@
         "Sugar",
         "Anise"
       ],
-      "picture_url": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c",
-      "price": 7.99
+      "picture_url": "https://images.unsplash.com/photo-1519985176271-adb1088fa94c",
+      "price": 799
     },
     {
       "name": "Lavender Mint Iced Tea",
@@ -358,8 +226,8 @@
         "Ice",
         "Sugar"
       ],
-      "picture_url": "https://images.pexels.com/photos/302680/pexels-photo-302680.jpeg",
-      "price": 3.49
+      "picture_url": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c",
+      "price": 349
     },
     {
       "name": "Iced Turkish Coffee",
@@ -369,8 +237,8 @@
         "Ice",
         "Sugar"
       ],
-      "picture_url": "https://images.pexels.com/photos/459225/pexels-photo-459225.jpeg",
-      "price": 4.49
+      "picture_url": "https://images.unsplash.com/photo-1627077458091-212e7f73e979",
+      "price": 449
     },
     {
       "name": "Bosphorus Breeze",
@@ -382,7 +250,7 @@
         "Sparkling water"
       ],
       "picture_url": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c",
-      "price": 5.99
+      "price": 599
     }
   ]
 }
