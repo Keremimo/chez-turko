@@ -3,141 +3,263 @@
     {
       "name": "Bosphorus Croissant",
       "description": "A flaky French croissant infused with Turkish tahini and pekmez, creating the perfect harmony of east and west.",
-      "ingredients": ["Croissant dough", "Tahini", "Grape molasses (pekmez)", "Butter", "Honey glaze"],
-      "picture_url": "https://example.com/images/bosphorus_croissant.jpg",
+      "ingredients": [
+        "Croissant dough",
+        "Tahini",
+        "Grape molasses (pekmez)",
+        "Butter",
+        "Honey glaze"
+      ],
+      "picture_url": "https://images.pexels.com/photos/302680/pexels-photo-302680.jpeg",
       "price": 4.99
     },
     {
       "name": "Manti Ratatouille",
       "description": "Delicate Turkish dumplings filled with spiced beef, served on a bed of Provençal-style ratatouille.",
-      "ingredients": ["Dumpling dough", "Ground beef", "Tomatoes", "Zucchini", "Eggplant", "Herbs de Provence"],
-      "picture_url": "https://example.com/images/manti_ratatouille.jpg",
+      "ingredients": [
+        "Dumpling dough",
+        "Ground beef",
+        "Tomatoes",
+        "Zucchini",
+        "Eggplant",
+        "Herbs de Provence"
+      ],
+      "picture_url": "https://images.unsplash.com/photo-1600891964599-f61ba0e24092",
       "price": 12.99
     },
     {
       "name": "Lamb Cassoulet Kebab",
       "description": "Slow-cooked lamb cassoulet meets char-grilled kebab for an unforgettable culinary experience.",
-      "ingredients": ["Lamb shoulder", "White beans", "Carrots", "Garlic", "Paprika", "Charcoal-grilled spices"],
-      "picture_url": "https://example.com/images/lamb_cassoulet_kebab.jpg",
+      "ingredients": [
+        "Lamb shoulder",
+        "White beans",
+        "Carrots",
+        "Garlic",
+        "Paprika",
+        "Charcoal-grilled spices"
+      ],
+      "picture_url": "https://images.pexels.com/photos/461198/pexels-photo-461198.jpeg",
       "price": 18.99
     },
     {
       "name": "Baklava Mille-Feuille",
       "description": "The buttery layers of mille-feuille meet the nutty sweetness of Turkish baklava for a dessert masterpiece.",
-      "ingredients": ["Phyllo dough", "Pistachios", "Walnuts", "Honey", "Butter", "Cream"],
-      "picture_url": "https://example.com/images/baklava_mille_feuille.jpg",
+      "ingredients": [
+        "Phyllo dough",
+        "Pistachios",
+        "Walnuts",
+        "Honey",
+        "Butter",
+        "Cream"
+      ],
+      "picture_url": "https://images.pexels.com/photos/461198/pexels-photo-461198.jpeg",
       "price": 7.49
     },
     {
       "name": "Eiffel Ayran",
       "description": "A refreshing Turkish yogurt drink with a hint of lavender, inspired by the French countryside.",
-      "ingredients": ["Yogurt", "Water", "Salt", "Lavender essence"],
-      "picture_url": "https://example.com/images/eiffel_ayran.jpg",
+      "ingredients": [
+        "Yogurt",
+        "Water",
+        "Salt",
+        "Lavender essence"
+      ],
+      "picture_url": "https://images.pexels.com/photos/459225/pexels-photo-459225.jpeg",
       "price": 2.99
     },
     {
       "name": "Beyoglu Crème Brûlée",
       "description": "Classic French crème brûlée infused with aromatic Turkish coffee for a bold twist.",
-      "ingredients": ["Cream", "Egg yolks", "Sugar", "Turkish coffee"],
-      "picture_url": "https://example.com/images/beyoglu_creme_brulee.jpg",
+      "ingredients": [
+        "Cream",
+        "Egg yolks",
+        "Sugar",
+        "Turkish coffee"
+      ],
+      "picture_url": "https://images.pexels.com/photos/302680/pexels-photo-302680.jpeg",
       "price": 6.99
     },
     {
       "name": "Istanbul Quiche",
       "description": "A hearty quiche featuring Turkish sucuk sausage and creamy feta cheese.",
-      "ingredients": ["Eggs", "Cream", "Sucuk", "Feta cheese", "Pastry crust"],
-      "picture_url": "https://example.com/images/istanbul_quiche.jpg",
+      "ingredients": [
+        "Eggs",
+        "Cream",
+        "Sucuk",
+        "Feta cheese",
+        "Pastry crust"
+      ],
+      "picture_url": "https://images.pexels.com/photos/2232/vegetables-italian-pizza-restaurant.jpg",
       "price": 9.99
     },
     {
       "name": "Toulouse Dolma",
       "description": "Grape leaves stuffed with rice, herbs, and confit duck for a rich Mediterranean twist.",
-      "ingredients": ["Grape leaves", "Rice", "Herbs", "Confit duck", "Olive oil"],
-      "picture_url": "https://example.com/images/toulouse_dolma.jpg",
+      "ingredients": [
+        "Grape leaves",
+        "Rice",
+        "Herbs",
+        "Confit duck",
+        "Olive oil"
+      ],
+      "picture_url": "https://images.unsplash.com/photo-1600891964599-f61ba0e24092",
       "price": 14.99
     },
     {
       "name": "Bouillabaisse Tarhana",
       "description": "A fusion of French seafood soup with Turkish tarhana, blending bold and tangy flavors.",
-      "ingredients": ["Fish", "Shrimp", "Tarhana", "Tomatoes", "Garlic", "Olive oil"],
-      "picture_url": "https://example.com/images/bouillabaisse_tarhana.jpg",
+      "ingredients": [
+        "Fish",
+        "Shrimp",
+        "Tarhana",
+        "Tomatoes",
+        "Garlic",
+        "Olive oil"
+      ],
+      "picture_url": "https://images.pexels.com/photos/461198/pexels-photo-461198.jpeg",
       "price": 16.99
     },
     {
       "name": "Meze Éclair",
       "description": "Savoury éclairs filled with roasted eggplant and creamy labneh, topped with za'atar.",
-      "ingredients": ["Éclair dough", "Eggplant", "Labneh", "Za'atar", "Olive oil"],
-      "picture_url": "https://example.com/images/meze_eclair.jpg",
+      "ingredients": [
+        "Éclair dough",
+        "Eggplant",
+        "Labneh",
+        "Za'atar",
+        "Olive oil"
+      ],
+      "picture_url": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c",
       "price": 6.99
     },
     {
       "name": "Galata Escargot",
       "description": "Traditional French escargots served with a Turkish garlic-yogurt dipping sauce.",
-      "ingredients": ["Escargot", "Butter", "Garlic", "Parsley", "Yogurt"],
-      "picture_url": "https://example.com/images/galata_escargot.jpg",
+      "ingredients": [
+        "Escargot",
+        "Butter",
+        "Garlic",
+        "Parsley",
+        "Yogurt"
+      ],
+      "picture_url": "https://images.pexels.com/photos/461198/pexels-photo-461198.jpeg",
       "price": 11.99
     },
     {
       "name": "Pide Provençale",
       "description": "A Turkish flatbread topped with olives, goat cheese, and sun-dried tomatoes.",
-      "ingredients": ["Pide dough", "Goat cheese", "Sun-dried tomatoes", "Olives", "Basil"],
-      "picture_url": "https://example.com/images/pide_provencale.jpg",
+      "ingredients": [
+        "Pide dough",
+        "Goat cheese",
+        "Sun-dried tomatoes",
+        "Olives",
+        "Basil"
+      ],
+      "picture_url": "https://images.pexels.com/photos/302680/pexels-photo-302680.jpeg",
       "price": 10.99
     },
     {
       "name": "Adana Crêpe",
       "description": "Savory crêpes filled with spiced lamb from the Adana region, served with mint yogurt.",
-      "ingredients": ["Crêpe batter", "Ground lamb", "Chili peppers", "Mint", "Yogurt"],
-      "picture_url": "https://example.com/images/adana_crepe.jpg",
+      "ingredients": [
+        "Crêpe batter",
+        "Ground lamb",
+        "Chili peppers",
+        "Mint",
+        "Yogurt"
+      ],
+      "picture_url": "https://images.pexels.com/photos/461198/pexels-photo-461198.jpeg",
       "price": 13.49
     },
     {
       "name": "Aegean Tart",
       "description": "A flaky tart filled with Turkish olives, French Gruyère, and fresh rosemary.",
-      "ingredients": ["Tart crust", "Olives", "Gruyère cheese", "Rosemary", "Olive oil"],
-      "picture_url": "https://example.com/images/aegean_tart.jpg",
+      "ingredients": [
+        "Tart crust",
+        "Olives",
+        "Gruyère cheese",
+        "Rosemary",
+        "Olive oil"
+      ],
+      "picture_url": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c",
       "price": 9.49
     },
     {
       "name": "Ottoman Soufflé",
       "description": "Rich chocolate soufflé spiced with a hint of cinnamon and Turkish chili flakes.",
-      "ingredients": ["Chocolate", "Eggs", "Sugar", "Cinnamon", "Chili flakes"],
-      "picture_url": "https://example.com/images/ottoman_souffle.jpg",
+      "ingredients": [
+        "Chocolate",
+        "Eggs",
+        "Sugar",
+        "Cinnamon",
+        "Chili flakes"
+      ],
+      "picture_url": "https://images.pexels.com/photos/302680/pexels-photo-302680.jpeg",
       "price": 8.99
     },
     {
       "name": "Brioche Köfte",
       "description": "Juicy Turkish köfte served on a soft French brioche bun with sumac onions.",
-      "ingredients": ["Ground beef", "Spices", "Brioche bun", "Sumac", "Onions"],
-      "picture_url": "https://example.com/images/brioche_kofte.jpg",
+      "ingredients": [
+        "Ground beef",
+        "Spices",
+        "Brioche bun",
+        "Sumac",
+        "Onions"
+      ],
+      "picture_url": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c",
       "price": 10.99
     },
     {
       "name": "Antakya Ratatouille",
       "description": "Ratatouille with a Turkish twist, featuring Antakya’s signature pomegranate molasses.",
-      "ingredients": ["Eggplant", "Zucchini", "Tomatoes", "Pomegranate molasses", "Olive oil"],
-      "picture_url": "https://example.com/images/antakya_ratatouille.jpg",
+      "ingredients": [
+        "Eggplant",
+        "Zucchini",
+        "Tomatoes",
+        "Pomegranate molasses",
+        "Olive oil"
+      ],
+      "picture_url": "https://images.pexels.com/photos/461198/pexels-photo-461198.jpeg",
       "price": 12.99
     },
     {
       "name": "Côte d'Azur Baklava",
       "description": "Baklava layered with figs and a touch of French lavender honey.",
-      "ingredients": ["Phyllo dough", "Figs", "Pistachios", "Butter", "Lavender honey"],
-      "picture_url": "https://example.com/images/cote_dazur_baklava.jpg",
+      "ingredients": [
+        "Phyllo dough",
+        "Figs",
+        "Pistachios",
+        "Butter",
+        "Lavender honey"
+      ],
+      "picture_url": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c",
       "price": 8.49
     },
     {
       "name": "Foie Gras Börek",
       "description": "Crispy Turkish börek filled with rich foie gras and caramelized onions.",
-      "ingredients": ["Phyllo dough", "Foie gras", "Onions", "Butter", "Spices"],
-      "picture_url": "https://example.com/images/foie_gras_borek.jpg",
+      "ingredients": [
+        "Phyllo dough",
+        "Foie gras",
+        "Onions",
+        "Butter",
+        "Spices"
+      ],
+      "picture_url": "https://images.pexels.com/photos/302680/pexels-photo-302680.jpeg",
       "price": 19.99
     },
     {
       "name": "Simit Tartine",
       "description": "Traditional Turkish sesame bagel topped with creamy French brie and fig jam.",
-      "ingredients": ["Simit", "Brie cheese", "Fig jam", "Walnuts", "Honey"],
-      "picture_url": "https://example.com/images/simit_tartine.jpg",
+      "ingredients": [
+        "Simit",
+        "Brie cheese",
+        "Fig jam",
+        "Walnuts",
+        "Honey"
+      ],
+      "picture_url": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c",
       "price": 6.99
     }
   ],
@@ -145,73 +267,122 @@
     {
       "name": "Lavender Lemonade",
       "description": "A refreshing blend of lemonade with a hint of lavender, perfect for any meal.",
-      "ingredients": ["Lemon juice", "Water", "Sugar", "Lavender essence"],
-      "picture_url": "https://example.com/images/lavender_lemonade.jpg",
+      "ingredients": [
+        "Lemon juice",
+        "Water",
+        "Sugar",
+        "Lavender essence"
+      ],
+      "picture_url": "https://images.pexels.com/photos/459225/pexels-photo-459225.jpeg",
       "price": 3.99
     },
     {
       "name": "Turkish Coffee Martini",
       "description": "A bold martini combining Turkish coffee and smooth French vodka.",
-      "ingredients": ["Turkish coffee", "Vodka", "Coffee liqueur", "Sugar"],
-      "picture_url": "https://example.com/images/turkish_coffee_martini.jpg",
+      "ingredients": [
+        "Turkish coffee",
+        "Vodka",
+        "Coffee liqueur",
+        "Sugar"
+      ],
+      "picture_url": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c",
       "price": 9.99
     },
     {
       "name": "Pomegranate Kir Royale",
       "description": "A sparkling cocktail of champagne and tart Turkish pomegranate juice.",
-      "ingredients": ["Champagne", "Pomegranate juice"],
-      "picture_url": "https://example.com/images/pomegranate_kir_royale.jpg",
+      "ingredients": [
+        "Champagne",
+        "Pomegranate juice"
+      ],
+      "picture_url": "https://images.pexels.com/photos/461198/pexels-photo-461198.jpeg",
       "price": 8.99
     },
     {
       "name": "Minty Ayran Cooler",
       "description": "A twist on classic ayran with mint leaves and a dash of lime.",
-      "ingredients": ["Yogurt", "Water", "Mint leaves", "Salt", "Lime juice"],
-      "picture_url": "https://example.com/images/minty_ayran_cooler.jpg",
+      "ingredients": [
+        "Yogurt",
+        "Water",
+        "Mint leaves",
+        "Salt",
+        "Lime juice"
+      ],
+      "picture_url": "https://images.pexels.com/photos/302680/pexels-photo-302680.jpeg",
       "price": 2.99
     },
     {
       "name": "Rosewater Fizz",
       "description": "A delicate balance of rosewater and sparkling lemonade.",
-      "ingredients": ["Rosewater", "Sparkling water", "Lemon juice", "Sugar"],
-      "picture_url": "https://example.com/images/rosewater_fizz.jpg",
+      "ingredients": [
+        "Rosewater",
+        "Sparkling water",
+        "Lemon juice",
+        "Sugar"
+      ],
+      "picture_url": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c",
       "price": 3.49
     },
     {
       "name": "Chai Latte Française",
       "description": "Turkish black tea steeped with French spices and topped with frothy milk.",
-      "ingredients": ["Turkish tea", "Milk", "Cinnamon", "Vanilla", "Sugar"],
-      "picture_url": "https://example.com/images/chai_latte_francaise.jpg",
+      "ingredients": [
+        "Turkish tea",
+        "Milk",
+        "Cinnamon",
+        "Vanilla",
+        "Sugar"
+      ],
+      "picture_url": "https://images.pexels.com/photos/461198/pexels-photo-461198.jpeg",
       "price": 4.49
     },
     {
       "name": "Rakı Sour",
       "description": "A unique cocktail blending Turkish rakı with lemon and a hint of anise.",
-      "ingredients": ["Rakı", "Lemon juice", "Sugar", "Anise"],
-      "picture_url": "https://example.com/images/raki_sour.jpg",
+      "ingredients": [
+        "Rakı",
+        "Lemon juice",
+        "Sugar",
+        "Anise"
+      ],
+      "picture_url": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c",
       "price": 7.99
     },
     {
       "name": "Lavender Mint Iced Tea",
       "description": "A soothing iced tea brewed with lavender and fresh mint leaves.",
-      "ingredients": ["Black tea", "Lavender", "Mint leaves", "Ice", "Sugar"],
-      "picture_url": "https://example.com/images/lavender_mint_iced_tea.jpg",
+      "ingredients": [
+        "Black tea",
+        "Lavender",
+        "Mint leaves",
+        "Ice",
+        "Sugar"
+      ],
+      "picture_url": "https://images.pexels.com/photos/302680/pexels-photo-302680.jpeg",
       "price": 3.49
     },
     {
       "name": "Iced Turkish Coffee",
       "description": "A refreshing chilled version of traditional Turkish coffee.",
-      "ingredients": ["Turkish coffee", "Ice", "Sugar"],
-      "picture_url": "https://example.com/images/iced_turkish_coffee.jpg",
+      "ingredients": [
+        "Turkish coffee",
+        "Ice",
+        "Sugar"
+      ],
+      "picture_url": "https://images.pexels.com/photos/459225/pexels-photo-459225.jpeg",
       "price": 4.49
     },
     {
       "name": "Bosphorus Breeze",
       "description": "A cool mocktail with cucumber, lemon, and a touch of elderflower.",
-      "ingredients": ["Cucumber", "Lemon juice", "Elderflower syrup", "Sparkling water"],
-      "picture_url": "https://example.com/images/bosphorus_breeze.jpg",
+      "ingredients": [
+        "Cucumber",
+        "Lemon juice",
+        "Elderflower syrup",
+        "Sparkling water"
+      ],
+      "picture_url": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c",
       "price": 5.99
     }
   ]
 }
-
