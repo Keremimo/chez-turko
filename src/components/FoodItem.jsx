@@ -1,7 +1,8 @@
-const FoodItem = ({ details, cartModify }) => {
+const FoodItem = ({ details, cartModify, handleDrawerToggle }) => {
   const cardImage = details.picture_url || 'https://img.daisyui.com/images/stock/photo-1494232410401-ad00d5433cfa.webp'
   const addToCart = () => {
     cartModify(details)
+    handleDrawerToggle()
   }
 
   return (

@@ -10,6 +10,13 @@ const Menu = () => {
     else return []
 
   })
+
+  const [drawer, setDrawer] = useState('')
+
+  const handleDrawerToggle = () => {
+    setDrawer('defaultChecked')
+  }
+
   const handleCartAdd = (obj) => {
     const newCart = [...shoppingCart]
     if (newCart[newCart.findIndex(item => item.name === obj.name)]) {
@@ -26,8 +33,8 @@ const Menu = () => {
   }
   return (
     <div className='join flex'>
-      <Cart cart={shoppingCart} setShoppingCart={setShoppingCart} />
-      <MenuList list={jsonData} cartModify={handleCartAdd} />
+      <Cart cart={shoppingCart} setShoppingCart={setShoppingCart} drawer={drawer} />
+      <MenuList list={jsonData} cartModify={handleCartAdd} handleDrawerToggle={handleDrawerToggle} />
     </div>
   )
 }

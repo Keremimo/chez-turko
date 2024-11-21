@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom"
 
-const Cart = ({ cart, setShoppingCart }) => {
+const Cart = ({ cart, setShoppingCart, drawer }) => {
   const handleAddition = (e) => {
     const newCart = [...cart]
     const { value: index } = e.target
@@ -19,6 +19,13 @@ const Cart = ({ cart, setShoppingCart }) => {
     sessionStorage.setItem('react-shopping-cart', JSON.stringify(newCart))
     setShoppingCart(newCart)
   }
+
+  const DrawerToggle = () => {
+    return (
+      <input id="shopCart" type="checkbox" defaultChecked={drawer} className="drawer-toggle" />
+    )
+  }
+
   const renderedCart = cart.map((item, index) => (
     <li key={index}>
       <div>
@@ -36,7 +43,7 @@ const Cart = ({ cart, setShoppingCart }) => {
   const totalPrice = (cart.reduce((accumulator, obj) => accumulator + ((obj.price * obj.quantity) * 100), initialPrice) / 100)
   return (
     <div className="drawer drawer-end fixed z-30 w-16 right-2 top-2">
-      <input id="shopCart" type="checkbox" className="drawer-toggle" />
+      <DrawerToggle />
       <div className="drawer-content mt-auto ml-auto">
         {/* Page content here */}
         <label htmlFor="shopCart" className="btn btn-primary drawer-button">
