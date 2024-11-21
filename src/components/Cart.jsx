@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom"
+
 const Cart = ({ cart }) => {
   const renderedCart = cart.map((item, index) => (
     <li key={index}>
@@ -29,7 +31,7 @@ const Cart = ({ cart }) => {
             <p className="text-2xl font-bold">Your Cart</p>
             <ul>{renderedCart}</ul>
             <p className="total-price font-bold">Total: <span className="ml-auto">{totalPrice > 0 ? totalPrice + " €" : "Your cart is empty."}</span></p>
-            <h2 className="btn btn-primary">Checkout</h2>
+            <Link className="btn btn-primary">Checkout</Link>
           </li>
         </ul>
       </div>
