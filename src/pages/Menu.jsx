@@ -26,7 +26,7 @@ const Menu = () => {
   }
   return (
     <div className='join flex'>
-      <Cart cart={shoppingCart} />
+      <Cart cart={shoppingCart} setShoppingCart={setShoppingCart} />
       <MenuList list={jsonData} cartModify={handleCartAdd} />
     </div>
   )

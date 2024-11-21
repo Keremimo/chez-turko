@@ -1,9 +1,31 @@
 import { Link } from "react-router-dom"
 
-const Cart = ({ cart }) => {
+const Cart = ({ cart, setShoppingCart }) => {
+  const handleAddition = (e) => {
+    const newCart = [...cart]
+    const { value: index } = e.target
+    newCart[index].quantity += 1
+    sessionStorage.setItem('react-shopping-cart', JSON.stringify(newCart))
+    setShoppingCart(newCart)
+  }
+
+  const handleRemoval = (e) => {
+    const newCart = [...cart]
+    const { value: index } = e.target
+    newCart[index].quantity -= 1
+    if (newCart[index].quantity <= 0) {
+      newCart.splice(index, 1)
+    }
+    sessionStorage.setItem('react-shopping-cart', JSON.stringify(newCart))
+    setShoppingCart(newCart)
+  }
   const renderedCart = cart.map((item, index) => (
     <li key={index}>
       <div>
+        <div className="buttons flex">
+          <button onClick={handleRemoval} value={index} className="btn btn-sm btn-error mr-2">-</button>
+          <button onClick={handleAddition} value={index} className="btn btn-sm btn-success">+</button>
+        </div>
         <h2>{item.name}</h2>
         <span className="font-bold">X{item.quantity}</span>
         <span>{(item.quantity * (item.price * 100) / 100)} €</span>
