@@ -4,7 +4,7 @@ const Cart = ({ cart }) => {
       <div>
         <h2>{item.name}</h2>
         <span className="font-bold">X{item.quantity}</span>
-        <span>{(item.quantity * (item.price * 100) / 100)}</span>
+        <span>{(item.quantity * (item.price * 100) / 100)} €</span>
       </div>
     </li>
   ))
@@ -19,7 +19,6 @@ const Cart = ({ cart }) => {
           <svg className="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
             <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 4h1.5L9 16m0 0h8m-8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm-8.5-3h9.25L19 7H7.312" />
           </svg>
-
         </label>
       </div>
       <div className="drawer-side">
@@ -29,7 +28,7 @@ const Cart = ({ cart }) => {
           <li>
             <p className="text-2xl font-bold">Your Cart</p>
             <ul>{renderedCart}</ul>
-            <p className="total-price font-bold">Total: <span className="ml-auto">{totalPrice > 0 ? totalPrice : "Your cart is empty."}</span></p>
+            <p className="total-price font-bold">Total: <span className="ml-auto">{totalPrice > 0 ? totalPrice + " €" : "Your cart is empty."}</span></p>
             <h2 className="btn btn-primary">Checkout</h2>
           </li>
         </ul>
