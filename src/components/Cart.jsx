@@ -10,7 +10,6 @@ const Cart = ({ cart }) => {
   ))
   const initialPrice = 0
   const totalPrice = (cart.reduce((accumulator, obj) => accumulator + ((obj.price * obj.quantity) * 100), initialPrice) / 100)
-
   return (
     <div className="drawer drawer-end fixed z-30 w-16 right-2 top-2">
       <input id="shopCart" type="checkbox" className="drawer-toggle" />
@@ -25,12 +24,12 @@ const Cart = ({ cart }) => {
       </div>
       <div className="drawer-side">
         <label htmlFor="shopCart" aria-label="close sidebar" className="drawer-overlay"></label>
-        <ul className="menu bg-base-200 text-base-content min-h-full w-80 p-4">
+        <ul className="menu bg-base-200 text-base-content min-h-full w-1/3 min-w-80 p-4">
           {/* Sidebar content here */}
           <li>
             <p className="text-2xl font-bold">Your Cart</p>
             <ul>{renderedCart}</ul>
-            <p className="total-price font-bold">Total: <span className="ml-auto">{totalPrice}</span></p>
+            <p className="total-price font-bold">Total: <span className="ml-auto">{totalPrice > 0 ? totalPrice : "Your cart is empty."}</span></p>
             <h2 className="btn btn-primary">Checkout</h2>
           </li>
         </ul>
