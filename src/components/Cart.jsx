@@ -8,6 +8,9 @@ const Cart = ({ cart }) => {
       </div>
     </li>
   ))
+  const initialPrice = 0
+  const totalPrice = (cart.reduce((accumulator, obj) => accumulator + ((obj.price * obj.quantity) * 100), initialPrice) / 100)
+
   return (
     <div className="drawer drawer-end fixed z-30 w-16 right-2 top-2">
       <input id="shopCart" type="checkbox" className="drawer-toggle" />
@@ -27,8 +30,8 @@ const Cart = ({ cart }) => {
           <li>
             <p className="text-2xl font-bold">Your Cart</p>
             <ul>{renderedCart}</ul>
+            <p className="total-price font-bold">Total: <span className="ml-auto">{totalPrice}</span></p>
             <h2 className="btn btn-primary">Checkout</h2>
-
           </li>
         </ul>
       </div>
