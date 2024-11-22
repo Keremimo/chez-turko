@@ -26,15 +26,15 @@ const Order = () => {
     setCart(newCart)
   }
   const orderList = cart.map((item, index) => (
-    <tr key={index} className="text-center">
-      <td>
+    <tr key={index} className="h-16">
+      <td className="h-16">
         <div className="mask mask-squircle h-12 w-12">
           <img
             src={item.picture_url}
             alt={item.name} />
         </div>
       </td>
-      <td>
+      <td className="h-16">
         <div className="flex items-center gap-3">
           <div className="avatar">
 
@@ -44,18 +44,18 @@ const Order = () => {
           </div>
         </div>
       </td>
-      <td>
+      <td className="h-16">
         {item.ingredients.join(', ')}
         <br />
       </td>
-      <td className="items-center">
+      <td className="h-16">
         <div className="flex">
           <button onClick={handleRemoval} value={index} className="btn btn-error btn-xs mr-2">-</button>
           {item.quantity}
           <button onClick={handleAddition} value={index} className="btn btn-success btn-xs ml-2">+</button>
         </div>
       </td>
-      <td>{(item.price * item.quantity) / 100}</td>
+      <td className="h-16">{(item.price * item.quantity) / 100}</td>
     </tr>
   ))
 
@@ -106,8 +106,8 @@ const Order = () => {
           </form>
         </div>
         <div className="divider lg:divider-horizontal"></div>
-        <div className="card bg-base-300 rounded-box grid h-80 w-1/2 md:w-full place-items-baseline content-start overflow-scroll">
-          <table className="table bg-base-300">
+        <div className="card bg-base-300 rounded-box grid h-80 w-1/2 md:w-full place-items-start content-start overflow-y-scroll overflow-x-auto">
+          <table className="table table-auto bg-base-300">
             <thead className="sticky top-0 bg-base-300 z-20">
               <tr className="bg-base-300">
                 <th></th>
@@ -117,7 +117,7 @@ const Order = () => {
                 <th className="text-center">Price</th>
               </tr>
             </thead>
-            <tbody className="h-96">
+            <tbody className="content-start">
               {orderList}
             </tbody>
           </table>
