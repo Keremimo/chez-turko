@@ -16,13 +16,11 @@ const router = createBrowserRouter([
       },
       {
         path: "/menu",
-        element: <Menu />,
-        children: [
-          {
-            path: "/menu/order",
-            element: <Order />
-          }
-        ]
+        element: <Menu />
+      },
+      {
+        path: "/menu/order",
+        element: <Order />
       }
     ]
   },
