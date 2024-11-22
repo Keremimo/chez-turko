@@ -10,7 +10,7 @@
         "Butter",
         "Honey glaze"
       ],
-      "picture_url": "https://images.unsplash.com/photo-1606291621386-85f60f08c28e",
+      "picture_url": "/1.jpg",
       "price": 499
     },
     {
@@ -24,7 +24,7 @@
         "Eggplant",
         "Herbs de Provence"
       ],
-      "picture_url": "https://images.unsplash.com/photo-1600891964599-f61ba0e24092",
+      "picture_url": "/2.jpg",
       "price": 1299
     },
     {
@@ -38,7 +38,7 @@
         "Paprika",
         "Charcoal-grilled spices"
       ],
-      "picture_url": "https://images.unsplash.com/photo-1529290130-b1b0c0aa4516",
+      "picture_url": "/3.jpg",
       "price": 1899
     },
     {
@@ -52,7 +52,7 @@
         "Butter",
         "Cream"
       ],
-      "picture_url": "https://images.unsplash.com/photo-1612178992340-d69dc0f07dce",
+      "picture_url": "/4.jpg",
       "price": 749
     },
     {
@@ -64,7 +64,7 @@
         "Salt",
         "Lavender essence"
       ],
-      "picture_url": "https://images.unsplash.com/photo-1551892589-865f698694b4",
+      "picture_url": "/5.jpg",
       "price": 299
     },
     {
@@ -76,7 +76,7 @@
         "Sugar",
         "Turkish coffee"
       ],
-      "picture_url": "https://images.unsplash.com/photo-1589571894960-20bbe2828d9f",
+      "picture_url": "/6.jpg",
       "price": 699
     },
     {
@@ -89,7 +89,7 @@
         "Feta cheese",
         "Pastry crust"
       ],
-      "picture_url": "https://images.unsplash.com/photo-1592211541925-455af324e8e7",
+      "picture_url": "/7.jpg",
       "price": 999
     },
     {
@@ -102,7 +102,7 @@
         "Confit duck",
         "Olive oil"
       ],
-      "picture_url": "https://images.unsplash.com/photo-1529290130-55f6696a99f7",
+      "picture_url": "/8.jpg",
       "price": 1499
     },
     {
@@ -116,7 +116,7 @@
         "Garlic",
         "Olive oil"
       ],
-      "picture_url": "https://images.unsplash.com/photo-1604537529428-e221c133c5b6",
+      "picture_url": "/9.jpg",
       "price": 1699
     },
     {
@@ -129,7 +129,7 @@
         "Za'atar",
         "Olive oil"
       ],
-      "picture_url": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c",
+      "picture_url": "/10.jpg",
       "price": 699
     },
     {
@@ -141,7 +141,7 @@
         "Sugar",
         "Lavender essence"
       ],
-      "picture_url": "https://images.unsplash.com/photo-1599058917212-e24718d0a17a",
+      "picture_url": "/11.jpg",
       "price": 399
     },
     {
@@ -153,7 +153,7 @@
         "Coffee liqueur",
         "Sugar"
       ],
-      "picture_url": "https://images.unsplash.com/photo-1624730312686-bb0516f9eebd",
+      "picture_url": "/12.jpg",
       "price": 999
     },
     {
@@ -163,7 +163,7 @@
         "Champagne",
         "Pomegranate juice"
       ],
-      "picture_url": "https://images.unsplash.com/photo-1587131660666-845d934085aa",
+      "picture_url": "/13.jpg",
       "price": 899
     },
     {
@@ -176,7 +176,7 @@
         "Salt",
         "Lime juice"
       ],
-      "picture_url": "https://images.unsplash.com/photo-1543362906-acfc16c67564",
+      "picture_url": "/14.jpg",
       "price": 299
     },
     {
@@ -188,7 +188,7 @@
         "Lemon juice",
         "Sugar"
       ],
-      "picture_url": "https://images.unsplash.com/photo-1553440562-e7d6fe3978fc",
+      "picture_url": "/15.jpg",
       "price": 349
     },
     {
@@ -201,7 +201,7 @@
         "Vanilla",
         "Sugar"
       ],
-      "picture_url": "https://images.unsplash.com/photo-1562526395-fff70f8d743f",
+      "picture_url": "/16.jpg",
       "price": 449
     },
     {
@@ -213,7 +213,7 @@
         "Sugar",
         "Anise"
       ],
-      "picture_url": "https://images.unsplash.com/photo-1519985176271-adb1088fa94c",
+      "picture_url": "/17.jpg",
       "price": 799
     },
     {
@@ -226,7 +226,7 @@
         "Ice",
         "Sugar"
       ],
-      "picture_url": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c",
+      "picture_url": "/18.jpg",
       "price": 349
     },
     {
@@ -237,7 +237,7 @@
         "Ice",
         "Sugar"
       ],
-      "picture_url": "https://images.unsplash.com/photo-1627077458091-212e7f73e979",
+      "picture_url": "/19.jpg",
       "price": 449
     },
     {
@@ -249,7 +249,7 @@
         "Elderflower syrup",
         "Sparkling water"
       ],
-      "picture_url": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c",
+      "picture_url": "/20.jpg",
       "price": 599
     }
   ]
