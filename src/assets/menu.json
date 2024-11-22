@@ -1,6 +1,17 @@
 {
   "menu": [
     {
+      "name": "Fish Fingers",
+      "description": "Goes great with the complimentary custard.",
+      "ingredients": [
+        "Fish",
+        "Fingers",
+        "Custard"
+      ],
+      "picture_url": "/21.jpg",
+      "price": 599
+    },
+    {
       "name": "Bosphorus Croissant",
       "description": "A flaky French croissant infused with Turkish tahini and pekmez, creating the perfect harmony of east and west.",
       "ingredients": [
