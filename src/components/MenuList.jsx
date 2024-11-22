@@ -4,7 +4,7 @@ const MenuList = ({ list, cartModify, handleDrawerToggle }) => {
     <FoodItem key={index} details={item} cartModify={cartModify} handleDrawerToggle={handleDrawerToggle} />
   ))
   return (
-    <div className="flex min-w-12 flex-wrap justify-center">
+    <div className="flex min-w-12 flex-wrap md:justify-center">
       {foodItemList}
     </div>
   )

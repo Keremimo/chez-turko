@@ -73,8 +73,8 @@ const Order = () => {
           </div>
         </div>
       </dialog>
-      <div className="flex w-full flex-col lg:flex-row">
-        <div className="card bg-base-300 rounded-box flex h-full md:w-full w-1/2 place-items-center">
+      <div className="flex w-full flex-col lg:flex-row overflow-x-scroll">
+        <div className="card bg-base-300 rounded-box flex h-full sm:w-full w-1/2 place-items-center">
           <h2 className="text-2xl font-bold m-4">Enter your details:</h2>
           <form className="m-4" action="">
             <div className="flex" >
@@ -106,7 +106,7 @@ const Order = () => {
           </form>
         </div>
         <div className="divider lg:divider-horizontal"></div>
-        <div className="card bg-base-300 rounded-box grid h-80 w-1/2 md:w-full place-items-start content-start overflow-y-scroll overflow-x-auto">
+        <div className="card bg-base-300 rounded-box grid h-80 w-1/2 sm:w-full place-items-start content-start overflow-y-scroll">
           <table className="table table-auto bg-base-300">
             <thead className="sticky top-0 bg-base-300 z-20">
               <tr className="bg-base-300">
