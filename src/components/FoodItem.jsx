@@ -12,7 +12,7 @@ const FoodItem = ({ details, cartModify, handleDrawerToggle }) => {
           src={cardImage}
           alt="Album" />
       </figure>
-      <div className="card-body text-center m-auto md:max-w-96 md:max-w-80">
+      <div className="card-body text-center m-auto lg:max-w-96 md:max-w-80">
         <h2 className="card-title text-center mx-auto pt-0 mt-0">{details.name}</h2>
         <p className="text-center">{details.description}</p>
 
