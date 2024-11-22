@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import jsonData from '../assets/menu.json'
 import { MenuList, Cart } from '../components'
 
@@ -14,8 +14,10 @@ const Menu = () => {
   const [drawer, setDrawer] = useState('')
 
   const handleDrawerToggle = () => {
-    setDrawer('defaultChecked')
+    setDrawer(true)
   }
+
+  useEffect(() => setDrawer(false), [])
 
   const handleCartAdd = (obj) => {
     const newCart = [...shoppingCart]
@@ -33,7 +35,7 @@ const Menu = () => {
   }
   return (
     <div className='join flex'>
-      <Cart cart={shoppingCart} setShoppingCart={setShoppingCart} drawer={drawer} />
+      <Cart cart={shoppingCart} setShoppingCart={setShoppingCart} drawer={drawer} setDrawer={setDrawer} />
       <MenuList list={jsonData} cartModify={handleCartAdd} handleDrawerToggle={handleDrawerToggle} />
     </div>
   )

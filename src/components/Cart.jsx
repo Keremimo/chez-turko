@@ -1,12 +1,13 @@
 import { Link } from "react-router-dom"
 
-const Cart = ({ cart, setShoppingCart, drawer }) => {
+const Cart = ({ cart, setShoppingCart, drawer, setDrawer }) => {
   const handleAddition = (e) => {
     const newCart = [...cart]
     const { value: index } = e.target
     newCart[index].quantity += 1
     sessionStorage.setItem('react-shopping-cart', JSON.stringify(newCart))
     setShoppingCart(newCart)
+    setDrawer(true)
   }
 
   const handleRemoval = (e) => {
@@ -18,6 +19,7 @@ const Cart = ({ cart, setShoppingCart, drawer }) => {
     }
     sessionStorage.setItem('react-shopping-cart', JSON.stringify(newCart))
     setShoppingCart(newCart)
+    setDrawer(true)
   }
 
   const DrawerToggle = () => {
