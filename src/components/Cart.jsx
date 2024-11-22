@@ -60,7 +60,7 @@ const Cart = ({ cart, setShoppingCart, drawer }) => {
             <p className="text-2xl font-bold">Your Cart</p>
             <ul>{renderedCart}</ul>
             <p className="total-price font-bold">Total: <span className="ml-auto">{totalPrice > 0 ? totalPrice + " €" : "Your cart is empty."}</span></p>
-            <Link className="btn btn-primary">Checkout</Link>
+            <Link to={'order'} className="btn btn-primary">Checkout</Link>
           </li>
         </ul>
       </div>
