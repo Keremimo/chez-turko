@@ -1,8 +1,7 @@
-# React + Vite
+# Chez Turko - A React Practice
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to the Readme for Chez Turko, a small frontend project in React. It is for a restaurant's delivery system that displays their menu in a beautiful card-based layout.
 
-Currently, two official plugins are available:
+It was built using React, React-Router, Tailwind, DaisyUI. Javascript is the primarily used language.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Feel free to look into the code and post issues if you find any. Thanks in advance!
